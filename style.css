@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+a:hover {
+    color: #5e2129;
+    opacity: 0.5;
+    transition: 0.3s all;
+}
+
+.container {
+    background-color: #d1d1d1;
+    width: 500px;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.checked,
+.trash {
+    height: 25px;
+}
+
+button {
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+
+.box-degrade {
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    background-image: linear-gradient(to top, white, #5e2129);
+}
+
+h1 {
+    padding-top: 40px;
+}
+
+
+.rafael {
+    transition-duration: 2s;
+    transition-property: transform;
+}
+
+.rafael:hover {
+    transform: translate(5px, -12px);
+}
+
+
+.ricardo {
+    transition-duration: 2s;
+    transition-property: transform;
+}
+
+.ricardo:hover {
+    transform: translate(5px, -12px);
+}
+
+.evandro {
+    transition-duration: 2s;
+    transition-property: transform;
+}
+
+.evandro:hover {
+    transform: translate(5px, -12px);
+}
+
+h2 {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-left: 32px;
+    justify-content: space-around;
+    display: inline-block;
+    padding-top: 250px;
+    background-image: url(https://www.cidadaniaitaliana1948.com/wp-content/themes/yootheme/cache/fa/obter-a-cidadania-italiana-fa54d7ea.jpeg);
+    background-size: 250;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.parceiros {
+    transform: skewX(-7deg);
+    padding-top: 30px;
+}
+
+.input-task {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.button-task {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #5e2129;
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.button-task:hover {
+    opacity: 0.8;
+}
