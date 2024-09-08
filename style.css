@@ -123,7 +123,7 @@ p {
     font-size: 20px;
     font-weight: 500;
     padding-top: 10px;
-    color: #5e2129;
+    color: black;
 }
 
 .parceiros {
@@ -173,4 +173,11 @@ p {
     width: 100%;
     list-style: none;
     margin-top: 30px;
+}
+
+.done {
+    background-color: #5e2129;
+    text-decoration: line-through;
+    font-style: italic;
+    color: black;
 }
